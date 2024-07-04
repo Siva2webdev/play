@@ -10,7 +10,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -18,7 +19,7 @@ jobs:
           node-version: '20'
 
       - name: Install Dependencies
-        run: npm install node-fetch@2 winston
+        run: npm install axios
 
       - name: Run Script
         run: node parse.js
@@ -30,8 +31,17 @@ jobs:
 
       - name: Commit and Push Changes
         run: |
-          git add play.m3u
+          git add tox.m3u
           git commit -m 'Update M3U8 playlist'
           git push origin ${{ github.ref }}
         env:
           GITHUB_TOKEN: ${{ secrets.BINDAAS }}
+
+      - name: Trigger Second Workflow
+        run: |
+          curl -X POST \
+          -H "Accept: application/vnd.github+json" \
+          -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+          -H "Content-Type: application/json" \
+          https://api.github.com/repos/${{ github.repository }}/dispatches \
+          --data '{"event_type":"trigger-jekyll-build"}'
