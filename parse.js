@@ -5,7 +5,7 @@ const axios = require('axios');
 const fs = require('fs');
 
 // URL of the M3U playlist
-const playlistUrl = 'http://opplextv.cyou:8080/get.php?username=Aass321&password=Aass321&type=m3u_plus';
+const playlistUrl = 'http://youtube.xxx69.in/get.php?username=3h5WsvkMrP&password=SfLuWxZQ4z&type=m3u_plus';
 
 // Function to fetch and parse the M3U playlist
 async function parsePlaylist() {
