@@ -1,17 +1,18 @@
-//Playlist file Generator (url to .m3u file)
-
-
 const axios = require('axios');
 const fs = require('fs');
 
-// URL of the M3U playlist
-const playlistUrl = 'http://mega4k.one:8080/get.php?username=ramizghachi&password=874473256&type=m3u_plus';
+// Array of URLs to parse
+const playlistUrls = [
+    'http://mega4k.one:8080/get.php?username=ramizghachi&password=874473256&type=m3u_plus',
+    'http://watchindia.net:8880/get.php?username=65596&password=46234&type=m3u_plus',
+    'http://b1g.ooo:80/get.php?username=93736&password=93736&type=m3u_plus'
+];
 
 // Function to fetch and parse the M3U playlist
-async function parsePlaylist() {
+async function parsePlaylist(url, index) {
     try {
         // Fetch the contents of the M3U playlist
-        const response = await axios.get(playlistUrl);
+        const response = await axios.get(url);
         const playlistContent = response.data;
 
         // Split the playlist content into lines
@@ -21,29 +22,31 @@ async function parsePlaylist() {
         const channels = [];
 
         // Parse each line of the playlist
-        lines.forEach(line => {
+        lines.forEach((line, i) => {
             // Process each line based on the M3U format
             if (line.startsWith('#EXTINF:')) {
                 // Extract metadata (e.g., channel name) from the line
-                const metadata = line.substring('#EXTINF:'.length);
+                const metadata = line.substring('#EXTINF:'.length).trim();
 
                 // Move to the next line to extract the stream URL
-                const streamUrl = lines[lines.indexOf(line) + 1];
+                const streamUrl = lines[i + 1] ? lines[i + 1].trim() : '';
 
                 // Add channel name and stream URL to the channels array
-                channels.push({ name: metadata, url: streamUrl });
+                if (streamUrl) {
+                    channels.push({ name: metadata, url: streamUrl });
+                }
             }
         });
 
         // Write channels to a new M3U file
-        writeM3UFile(channels);
+        writeM3UFile(channels, `ps${index + 1}.m3u`);
     } catch (error) {
-        console.error('Error fetching or parsing the playlist:', error.message);
+        console.error(`Error fetching or parsing the playlist from ${url}:`, error.message);
     }
 }
 
 // Function to write channels to a new M3U file
-function writeM3UFile(channels) {
+function writeM3UFile(channels, filename) {
     try {
         // Initialize M3U file content with header
         let m3uContent = '#EXTM3U\n';
@@ -54,12 +57,14 @@ function writeM3UFile(channels) {
         });
 
         // Write M3U content to a new file
-        fs.writeFileSync('tox.m3u', m3uContent);
-        console.log('M3U file created successfully.');
+        fs.writeFileSync(filename, m3uContent);
+        console.log(`${filename} created successfully.`);
     } catch (error) {
-        console.error('Error writing M3U file:', error.message);
+        console.error(`Error writing M3U file (${filename}):`, error.message);
     }
 }
 
-// Call the function to parse the playlist
-parsePlaylist();
+// Loop through each URL and parse the playlist
+playlistUrls.forEach((url, index) => {
+    parsePlaylist(url, index);
+});
