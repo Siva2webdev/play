@@ -2,7 +2,7 @@ name: Update M3U8 Playlist
 
 on:
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: '0 */24 * * *'
   workflow_dispatch:
 
 jobs:
@@ -31,7 +31,7 @@ jobs:
 
       - name: Commit and Push Changes
         run: |
-          git add tox.m3u
+          git add ps1.m3u
           git commit -m 'Update M3U8 playlist'
           git push origin ${{ github.ref }}
         env:
