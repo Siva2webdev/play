@@ -31,7 +31,7 @@ jobs:
 
       - name: Commit and Push Changes
         run: |
-          git add ps1.m3u
+          git add *.m3u
           git commit -m 'Update M3U8 playlist'
           git push origin ${{ github.ref }}
         env:
