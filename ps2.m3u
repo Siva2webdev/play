@@ -1,4 +1,8 @@
 #EXTM3U
+#EXTINF:-1,-1 tvg-id="eurosport1.uk" tvg-name="Eurosport 1" tvg-logo="https://watchindia.net/images/channels/sports/E1.png" group-title="Sports",Eurosport 1
+http://watchindia.net:8880/live/65596/46234/2633.ts
+#EXTINF:-1,-1 tvg-id="eurosport2.uk" tvg-name="Eurosport 2" tvg-logo="https://watchindia.net/images/channels/sports/E2.png" group-title="Sports",Eurosport 2
+http://watchindia.net:8880/live/65596/46234/2634.ts
 #EXTINF:-1,-1 tvg-id="starsports1hd.in" tvg-name="Star Sports 1 HD 1" tvg-logo="https://watchindia.net/images/channels/sports/Star_Sports_1_HD.png" group-title="Sports",Star Sports 1 HD 1
 http://watchindia.net:8880/live/65596/46234/2232.ts
 #EXTINF:-1,-1 tvg-id="starsports1hd.in" tvg-name="Star Sports 1 HD 2" tvg-logo="https://watchindia.net/images/channels/sports/Star_Sports_1_HD.png" group-title="Sports",Star Sports 1 HD 2
