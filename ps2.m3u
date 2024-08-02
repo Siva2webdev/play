@@ -805,6 +805,8 @@ http://watchindia.net:8880/live/65596/46234/2051.ts
 http://watchindia.net:8880/live/65596/46234/2123.ts
 #EXTINF:-1,-1 tvg-id="tvlandeast.us" tvg-name="TV Land" tvg-logo="http://watchindia.net/images/channels/usa/TV_Land.png" group-title="USA Network",TV Land
 http://watchindia.net:8880/live/65596/46234/2304.ts
+#EXTINF:-1,-1 tvg-id="usanetwork.us" tvg-name="USA Network" tvg-logo="http://watchindia.net/images/channels/usa/USA_Network.png" group-title="USA Network",USA Network
+http://watchindia.net:8880/live/65596/46234/2643.ts
 #EXTINF:-1,-1 tvg-id="vh1.us" tvg-name="VH1" tvg-logo="http://watchindia.net/images/channels/usa/VH1.png" group-title="USA Network",VH1
 http://watchindia.net:8880/live/65596/46234/2185.ts
 #EXTINF:-1,-1 tvg-id="abcwabc.us" tvg-name="ABC (New York)" tvg-logo="https://watchindia.net/images/channels/usa/ABC.png" group-title="USA Network",ABC (New York)
