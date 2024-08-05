@@ -1,47 +1,47 @@
-name: Update M3U8 Playlist
+# name: Update M3U8 Playlist
 
-on:
-  schedule:
-    - cron: '0 */24 * * *'
-  workflow_dispatch:
+# on:
+#   schedule:
+#     - cron: '0 */24 * * *'
+#   workflow_dispatch:
 
-jobs:
-  update-playlist:
-    runs-on: ubuntu-latest
+# jobs:
+#   update-playlist:
+#     runs-on: ubuntu-latest
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+#     steps:
+#       - name: Checkout repository
+#         uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
+#       - name: Set up Node.js
+#         uses: actions/setup-node@v4
+#         with:
+#           node-version: '20'
 
-      - name: Install Dependencies
-        run: npm install axios
+#       - name: Install Dependencies
+#         run: npm install axios
 
-      - name: Run Script
-        run: node parse.js
+#       - name: Run Script
+#         run: node parse.js
 
-      - name: Configure git user
-        run: |
-          git config --global user.name 'Siva2webdev'
-          git config --global user.email "${{ secrets.USER_EMAIL }}"
+#       - name: Configure git user
+#         run: |
+#           git config --global user.name 'Siva2webdev'
+#           git config --global user.email "${{ secrets.USER_EMAIL }}"
 
-      - name: Commit and Push Changes
-        run: |
-          git add *.m3u
-          git commit -m 'Update M3U8 playlist'
-          git push origin ${{ github.ref }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.BINDAAS }}
+#       - name: Commit and Push Changes
+#         run: |
+#           git add *.m3u
+#           git commit -m 'Update M3U8 playlist'
+#           git push origin ${{ github.ref }}
+#         env:
+#           GITHUB_TOKEN: ${{ secrets.BINDAAS }}
 
-      - name: Trigger Second Workflow
-        run: |
-          curl -X POST \
-          -H "Accept: application/vnd.github+json" \
-          -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
-          -H "Content-Type: application/json" \
-          https://api.github.com/repos/${{ github.repository }}/dispatches \
-          --data '{"event_type":"trigger-jekyll-build"}'
+#       - name: Trigger Second Workflow
+#         run: |
+#           curl -X POST \
+#           -H "Accept: application/vnd.github+json" \
+#           -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+#           -H "Content-Type: application/json" \
+#           https://api.github.com/repos/${{ github.repository }}/dispatches \
+#           --data '{"event_type":"trigger-jekyll-build"}'
