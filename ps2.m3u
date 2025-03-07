@@ -1,19 +1,111 @@
 #EXTM3U
-#EXTINF:-1,PK: 92 NEWSᴴᴰ
-http://bostv.asia:8080/9182256508/9182256508/50012
-#EXTINF:-1,PK: DUNYA NEWSᴴᴰ
-http://bostv.asia:8080/9182256508/9182256508/50013
-#EXTINF:-1,PK: ARY NEWSᴴᴰ
-http://bostv.asia:8080/9182256508/9182256508/50014
-#EXTINF:-1,PK: GEO NEWSᴴᴰ
-http://bostv.asia:8080/9182256508/9182256508/50015
-#EXTINF:-1,PK: EXPRESS NEWSᴴᴰ
-http://bostv.asia:8080/9182256508/9182256508/50016
-#EXTINF:-1,PK: BOL NEWSᴴᴰ
-http://bostv.asia:8080/9182256508/9182256508/50017
-#EXTINF:-1,PK: GNN NEWSᴴᴰ
-http://bostv.asia:8080/9182256508/9182256508/50018
-#EXTINF:-1,PK: HUM NEWSᴴᴰ
-http://bostv.asia:8080/9182256508/9182256508/50019
-#EXTINF:-1,PK: PUBLIC NEWS
-http://bostv.asia:8080/9182256508/9182256508/50020
+#EXTINF:-1 tvg-id="ABPMajha.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/ABP_Majha.png" group-title="News",ABP माझा
+https://abplivetv.akamaized.net/hls/live/2043011/manjha/master.m3u8
+#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Lokshahi_News.png" group-title="News",लोकशाही मराठी
+https://see.lokshahi.live/live/index.m3u8
+#EXTINF:-1 tvg-id="News18Lokmat.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/IBN_Lokmat.png" group-title="News",News18 लोकमत
+https://nw18live.cdn.jio.com/bpk-tv/News18_Lokmat_NW18_MOB/output01/News18_Lokmat_NW18_MOB-audio_98835_eng=98800-video=2702400.m3u8
+#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Jai_Maharashtra.png" group-title="News",जय महराष्ट्र न्यूज
+https://server.livelegitpro.in/jaimaharashtratv/jaimaharashtratv/index.fmp4.m3u8
+#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/NDTV_Marathi.png" group-title="News",NDTV मराठी
+https://web-ndtv-marathi.akamaized.net/hls/live/2110470/ndtvmarathi/master_1.m3u8
+#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/TV9_Maharashtra.png" group-title="News",TV9 मराठी
+https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9marlygv8h/liveabr/playlist.m3u8
+
+
+#INF:-1 tvg-id="Marathibana" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Shemaroo_MarathiBana.png" group-title="Entertainment",मराठीबाणा
+#EXTINF:-1 tvg-id="FaktMarathi.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Fakt_Marathi.png" group-title="Entertainment",फक्त मराठी
+https://live-faktmarathi.akamaized.net/liveabr/playlist.m3u8
+http://172.105.123.238:18002/play/a00q
+#INF:-1 tvg-epgurl="https://jiotvapi.cdn.jio.com/apis/v1.3/getepg/get?channel_id=153&offset=0" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Talkies_HD.png" group-title="Entertainment", Zee Talkies HD
+
+#INF:-1 tvg-aspect-ratio="16:9" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/n3qfEnXy.png" group-title="Entertainment",ZEE Chitra Mandir
+
+#INF:-1 tvg-id="" tvg-name="Zee Yuva" tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/GuTrwkfk.png" group-title="Entertainment",Zee Yuva
+
+
+#INF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Zee_Marathi_HD.png" group-title="Entertainment", Zee Marathi
+
+#INF:-1 tvg-id="" tvg-name="Sony Marathi" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sony_Marathi_SD.png" group-title="Entertainment",Sony Marathi
+
+#INF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Colors_Marathi_HD.png" group-title="Entertainment", Colors Marathi HD
+
+#INF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Star_Pravah_2023.png/300px-Star_Pravah_2023.png" group-title="Entertainment", Star Pravah
+
+#INF:-1 tvg-aspect-ratio="4:3" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sun_Marathi.png" group-title="Entertainment", Sun Marathi
+
+
+
+#EXTINF:-1 channel-id="1" tvg-id="INBC1500014OM" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Maiboli.png" group-title="Music" , Maiboli
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/maiboli/master.m3u8
+#EXTINF:-1 tvg-id="9XJhakaas.in" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/9x_Jhakaas.png" group-title="Music",9x Jhakaas
+https://amg01281-9xmediapvtltd-9xjhakaas-samsungin-ci2cs.amagi.tv/playlist/amg01281-9xmediapvtltd-9xjhakaas-samsungin/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sony_SAB.png" group-title="Entertainment", Sony Sab
+http://tv.cloudcdn.me:80/live.ts?channelId=260&deviceMac=00:1A:79:0A:3B:2D
+#INF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Sony_Wah.png" group-title="Entertainment", Sony Wah
+
+
+
+
+
+#EXTINF:-1 tvg-id="BollywoodHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/39/Bollywood_HD_2018.png" group-title="Movies",Bollywood HD
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-hd/manifest.m3u8
+https://d35j504z0x2vu2.cloudfront.net/v1/manifest/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-hd/43e99595-3ab3-4f82-a828-0d32dc308c98/0.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d8/Bollywood_Clasic.png" group-title="Movies",Bollywood Classic
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/bollywood-classic/manifest.m3u8
+#EXTINF:-1 tvg-id="Shemaroo Bollywood" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/shemaroobollywood.png" group-title="Movies",Shemaroo Bollywood
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/shemaroo-bollywood/master.m3u8
+#INF:-1 tvg-id="zeecinemaindiahd.in" tvg-name="ZEE CINEMA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/af/Zee_Cinema_logo.png" group-title="Entertainment",ZEE CINEMA
+
+#INF:-1 tvg-id="andpictureshd.in" tvg-name="&pictures (4K)" tvg-logo="http://openboxv8s.com/india/and_pictures_in.jpg" group-title="Entertainment",&pictures
+
+#INF:-1 tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/IGpUNiVm.png", STAR GOLD THRILLS
+
+#INF:-1 tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/cV57fNkg.png", Star Utsav Movies
+
+
+
+
+
+#INF:-1 tvg-id="INBD13000205L" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBD13000205L_20231115T014715SQUARE.png_20231115014716.png" group-title="Kids" , Cartoon Network
+
+#INF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Discovery_Kids_2.png" group-title="Kids", Discovery Kids
+
+#EXTINF:-1 tvg-id="DroneTV" tvg-name="DroneTV Shorts" tvg-logo="https://cdn.airvuz.com/assets/header/airvuz-drone-logo.png" group-title="Infotainment", DroneTV Shorts
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/dronetv/440.m3u8
+#EXTINF:-1 tvg-id="WM" tvg-name="Watch Mojo" tvg-logo="https://www.watchmojo.com/2016/img/wm_logo3_2018.webp" group-title="Infotainment", Watch Mojo YouTube
+https://watchmojo-1-eu.xiaomi.wurl.tv/playlist.m3u8
+#INF:-1 tvg-id="RT" tvg-name="Rotten Tomatoes" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5b/Rotten_Tomatoes.svg" group-title="Infotainment", Rotten Tomatoes YouTube
+
+#EXTINF:-1 tvg-id="HistoryTV" tvg-name="HistoryTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/History_Logo.svg/1200px-History_Logo.svg.png" group-title="Infotainment", HistoryTV 365
+https://da8eq3kpws4wh.cloudfront.net/v1/manifest/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-qwqfh4ecsmf30/7f1c6847-381e-477d-9bda-b62f74400ee0/3.m3u8
+#EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/en/6/62/Modern_Marvels_title_credits.jpg" group-title="Infotainment", Modern Marvels
+https://277b8244.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/Um9rdV9Nb2Rlcm5NYXJ2ZWxzX0hMUw/playlist.m3u8
+#INF:-1 tvg-logo="https://i.postimg.cc/ZqbG8DVf/download-4.jpg" group-title="Documentary", Discovery Turbo
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/itszairi/FreeviewMY/main/channel-logos/intl/RedBullTV.png",Red Bull TV
+https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
+#EXTINF:-1 tvg-logo="https://www.powernationtv.com/images/brands/pn_icon_sm.png" group-title="Infotainment", PowerNation TV
+https://dbrb49pjoymg4.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod_default_xumo-ams-aws/master.m3u8?ads.xumo_channelId=99991291
+#EXTINF:-1 tvg-logo="https://www.sportstribal.tv/home/wp-content/uploads/2022/02/logo.png" group-title="Infotainment", MotorVision
+https://api-ott.motorvision.tv/loggingmediaurlpassthrough/a.m3u8?&version=12&id=1199&partner=klowdtv&device_model=&device_width=1920&device_height=1080&yob=&gender=&us_privacy=1---&gdpr=&gdpr_consent=&device_language=&is_lat=
+#EXTINF:-1 tvg-id="INBA4900023QJ" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/INBA4900023QJ_20220427T054726SQUARE.png_20220427054727.png" group-title="Infotainment" , Xplore
+http://xlpore-samsungus.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-logo="https://spng.pinpng.com/pngs/s/378-3789015_travel-channel-logo-png-travel-channel-tv-logo.png" group-title="Documentary",4K Travel
+https://d35j504z0x2vu2.cloudfront.net/v1/master/0bc8e8376bd8417a1b6761138aa41c26c7309312/4k-travel-tv/manifest.m3u8
+
+#EXTINF:-1 tvg-logo="https://www.sefiles.net/merchant/5511/images/site/logo_ae_300x80.png" group-title="Infotainment", Adventure Earth
+https://autentic-adventure-earth-1-gb.lg.wurl.tv/playlist.m3u8
+https://wildearth-plex.amagi.tv/masterR1080p.m3u8
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/DzZsrvqk/love-nature.png" group-title="Documentary", Love Nature 4K
+https://d18dyiwu97wm6q.cloudfront.net/playlist.m3u8
+
+#INF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/400/-/Animal_Planet_HD.png" group-title="Infotainment", Animal Planet HD
+
+#INF:-1 tvg-logo="https://i.postimg.cc/Hx1PS8kS/XBz4I65.png" group-title="Documentary", Discovery Science
+
+#EXTINF:-1 tvg-logo="https://imagesdishtvd2h.whatsonindia.com/dasimages/channel/landscape/360x270/UyI5ljKM.png" group-title="Infotainment", Discovery HD
+https://cdn4.skygo.mn/live/disk1/Discovery_Asia/HLS-FTA/Discovery_Asia.m3u8
+https://dplus.gammacdn.workers.dev/videos/95.m3u8
+https://varun-iptv.netlify.app/m3u/discoveryhindi.m3u8
