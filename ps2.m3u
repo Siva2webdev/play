@@ -1,32 +1,17 @@
-#EXTM3U
-#EXTINF:-1,-1 xui-id="1" tvg-id="" tvg-name="◉◉◉◉ EGYPT ◉◉◉◉" tvg-logo="http://185.177.228.135:808/logo/AFRICA/EGYPT/egypte_flag.png" group-title="AR | EGYPT - مصر",◉◉◉◉ EGYPT ◉◉◉◉
-http://apple4k.xyz:8080/play/1eZPKyYUrOWJXLSXSRx4oKzr3I_bE4UGSIzcKs9fKTwSGyyvEIm2be-hhtX0siiK/ts
-#EXTINF:-1,-1 xui-id="2" tvg-id="" tvg-name="EG: Misr Quran Kareem" tvg-logo="http://185.177.228.135:808/logo/QURAN_KAREEM.png" group-title="AR | EGYPT - مصر",EG: Misr Quran Kareem
-http://apple4k.xyz:8080/play/1eZPKyYUrOWJXLSXSRx4oKzr3I_bE4UGSIzcKs9fKTyI5M2g6ajvEozn82etUDzX/ts
-#EXTINF:-1,-1 xui-id="3" tvg-id="Egyptian.TV.eg" tvg-name="EG: Egyptian TV HD" tvg-logo="http://185.177.228.135:808/logo/AFRICA/EGYPT/egyptiantvx.png" group-title="AR | EGYPT - مصر",EG: Egyptian TV HD
-http://apple4k.xyz:8080/play/1eZPKyYUrOWJXLSXSRx4oKzr3I_bE4UGSIzcKs9fKTxMPscc50fc2a3kZfC0hHkO/ts
-#EXTINF:-1,-1 xui-id="4" tvg-id="Aloula.eg" tvg-name="EG: Masir Al Oula" tvg-logo="http://185.177.228.135:808/logo/AFRICA/EGYPT/ALOULA.png" group-title="AR | EGYPT - مصر",EG: Masir Al Oula
-http://apple4k.xyz:8080/play/1eZPKyYUrOWJXLSXSRx4oKzr3I_bE4UGSIzcKs9fKTxZuzfLt2xHrbXp54aftCy5/ts
-#EXTINF:-1,-1 xui-id="5" tvg-id="" tvg-name="EG: Al Saniyyah" tvg-logo="http://185.177.228.135:808/logo/AFRICA/EGYPT/egy2_1.png" group-title="AR | EGYPT - مصر",EG: Al Saniyyah
-http://apple4k.xyz:8080/play/1eZPKyYUrOWJXLSXSRx4oKzr3I_bE4UGSIzcKs9fKTzOT4hZkimPC8qmq6sM26jn/ts
-#EXTINF:-1,-1 xui-id="6" tvg-id="ESC.eg" tvg-name="EG: Esc" tvg-logo="http://185.177.228.135:808/logo/AFRICA/EGYPT/ESC.png" group-title="AR | EGYPT - مصر",EG: Esc
-http://apple4k.xyz:8080/play/1eZPKyYUrOWJXLSXSRx4oKzr3I_bE4UGSIzcKs9fKTw8O7nR7AJSDf0MnAI1jMOG/ts
-#EXTINF:-1,-1 xui-id="7" tvg-id="" tvg-name="EG: Extra Live HD" tvg-logo="http://185.177.228.135:808/logo/AFRICA/EGYPT/extra_life_11.png" group-title="AR | EGYPT - مصر",EG: Extra Live HD
-http://apple4k.xyz:8080/play/1eZPKyYUrOWJXLSXSRx4oKzr3I_bE4UGSIzcKs9fKTzKZAXV3Cx_xNyjF9Ym8JE3/ts
-#EXTINF:-1,-1 xui-id="8" tvg-id="" tvg-name="EG: Extra News" tvg-logo="http://185.177.228.135:808/logo/AFRICA/EGYPT/EXTRANEWS_11.png" group-title="AR | EGYPT - مصر",EG: Extra News
-http://apple4k.xyz:8080/play/1eZPKyYUrOWJXLSXSRx4oKzr3I_bE4UGSIzcKs9fKTypXbO5_CGnCYu_LKy8tOW3/ts
-#EXTINF:-1,-1 xui-id="9" tvg-id="" tvg-name="EG: Al Qahera News" tvg-logo="http://185.177.228.135:808/logo/AFRICA/EGYPT/alqahira_news11.png" group-title="AR | EGYPT - مصر",EG: Al Qahera News
-http://apple4k.xyz:8080/play/1eZPKyYUrOWJXLSXSRx4oKzr3I_bE4UGSIzcKs9fKTzNrFymNw8aTPGum2xwlSAQ/ts
-#EXTINF:-1,-1 xui-id="10" tvg-id="المحور.eg" tvg-name="EG: EL Mehwar TV" tvg-logo="http://185.177.228.135:808/logo/AFRICA/EGYPT/elmehwar_tv.png" group-title="AR | EGYPT - مصر",EG: EL Mehwar TV
-http://apple4k.xyz:8080/play/1eZPKyYUrOWJXLSXSRx4oKzr3I_bE4UGSIzcKs9fKTzTmISh_HzimiGlgy17kPLA/ts
-#EXTINF:-1,-1 xui-id="11" tvg-id="" tvg-name="EG: Nile News HD" tvg-logo="http://185.177.228.135:808/logo/AFRICA/EGYPT/nile_news.png" group-title="AR | EGYPT - مصر",EG: Nile News HD
-http://apple4k.xyz:8080/play/1eZPKyYUrOWJXLSXSRx4oKzr3I_bE4UGSIzcKs9fKTymcYgKcETmQV8InDnLR-ff/ts
-#EXTINF:-1,-1 xui-id="12" tvg-id="MBC.Egypt.eg" tvg-name="EG: MBC Masr 1" tvg-logo="http://185.177.228.135:808/logo/AFRICA/EGYPT/MBCMASR.png" group-title="AR | EGYPT - مصر",EG: MBC Masr 1
-http://apple4k.xyz:8080/play/1eZPKyYUrOWJXLSXSRx4oKzr3I_bE4UGSIzcKs9fKTz0Q_fUz3aRNR5gw1xoHwQO/ts
-#EXTINF:-1,-1 xui-id="13" tvg-id="MBC.MASR.2.eg" tvg-name="EG: MBC Masr 2" tvg-logo="http://185.177.228.135:808/logo/AFRICA/EGYPT/MBCMASR2.png" group-title="AR | EGYPT - مصر",EG: MBC Masr 2
-http://apple4k.xyz:8080/play/1eZPKyYUrOWJXLSXSRx4oKzr3I_bE4UGSIzcKs9fKTyqLstImIqKXq9gtcGX702u/ts
-#EXTINF:-1,-1 xui-id="14" tvg-id="" tvg-name="EG: OnTime Sports 1 HD" tvg-logo="http://185.177.228.135:808/logo/AFRICA/EGYPT/ontime_sports.png" group-title="AR | EGYPT - مصر",EG: OnTime Sports 1 HD
-http://apple4k.xyz:8080/play/1eZPKyYUrOWJXLSXSRx4oKzr3I_bE4UGSIzcKs9fKTwcIldh8ef7qZao2oJopYGj/ts
-#EXTINF:-1,-1 xui-id="15" tvg-id="" tvg-name="EG: OnTime Sports 1 4K" tvg-logo="http://185.177.228.135:808/logo/AFRICA/EGYPT/ontime_sports.png" group-title="AR | EGYPT - مصر",EG: OnTime Sports 1 4K
-http://apple4k.xyz:8080/play/1eZPKyYUrOWJXLSXSRx4oKzr3I_bE4UGSIzcKs9fKTwZonrUIKxJjubhQpHzH9Qo/ts
-#EXTINF:-1,-1 xui-id="16" tvg-id="" tvg-name="EG: OnTime Sports 2 HD" tvg-logo="http://185.177.228.135:808/logo/AFRICA/EGYPT/ontime_sports_2x.png" group-title="AR | EGYPT - مصر",EG: OnTime Sports 2 HD
+#EXTM3U x-tvg-url="https://e.erw.cc/all.xml.gz" catchup="append" catchup-source="?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}"
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京卫视.png",北京卫视
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s1/index.m3u8?time=1741336508&sign=6f05b804ac1a63a53a58b214251517b0
+#EXTINF:-1 tvg-name="北京新闻" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京新闻.png",北京新闻
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s9/index.m3u8?time=1741336510&sign=7a3592b32c10ec25252293dc3888db8d
+#EXTINF:-1 tvg-name="北京影视" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京影视.png",北京影视
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s4/index.m3u8?time=1741336509&sign=16048a42bdbad3ea42a930d946caa39b
+#EXTINF:-1 tvg-name="北京生活" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京生活.png",北京生活
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s7/index.m3u8?time=1741336509&sign=4127ff51fc834376e412448bb715edaf
+#EXTINF:-1 tvg-name="北京文艺" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京文艺.png",北京文艺
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s2/index.m3u8?time=1741336508&sign=64911ed3b61770422b9d492af7f26a0e
+#EXTINF:-1 tvg-name="北京财经" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京财经.png",北京财经
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s5/index.m3u8?time=1741336509&sign=9d4397125d5fb3bee02a407028b07daf
+#EXTINF:-1 tvg-name="北京纪实科教" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京纪实科教.png",北京纪实科教
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s3/index.m3u8?time=1741336508&sign=ee40c705459468aa4fd6ac3e4fb1912a
+#EXTINF:-1 tvg-name="北京卡酷少儿" tvg-logo="https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/北京卡酷少儿.png",北京卡酷少儿
+https://hsplay-360.v.btime.com/live_btime/btv_sn_20170706_s10/index.m3u8?time=1741336510&sign=f138ea71cf78c9bee5283e5174907c4f
